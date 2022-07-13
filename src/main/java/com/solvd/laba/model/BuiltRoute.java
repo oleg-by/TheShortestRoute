@@ -1,4 +1,4 @@
-package com.solvd.laba.dao.model;
+package com.solvd.laba.model;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import com.solvd.laba.utils.ParserUtils;

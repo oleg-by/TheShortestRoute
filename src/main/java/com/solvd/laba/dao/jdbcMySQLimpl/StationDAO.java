@@ -1,8 +1,8 @@
-package com.solvd.laba.dao.impl;
+package com.solvd.laba.dao.jdbcMySQLimpl;
 
-import com.solvd.laba.dao.connection.ConnectionPool;
-import com.solvd.laba.dao.interfaces.IStationDAO;
-import com.solvd.laba.dao.model.Station;
+import com.solvd.laba.dao.jdbcMySQLimpl.connection.ConnectionPool;
+import com.solvd.laba.dao.IStationDAO;
+import com.solvd.laba.model.Station;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

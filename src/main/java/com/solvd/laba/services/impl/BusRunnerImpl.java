@@ -1,8 +1,8 @@
 package com.solvd.laba.services.impl;
 
-import com.solvd.laba.dao.impl.RouteDAO;
-import com.solvd.laba.dao.impl.StationDAO;
-import com.solvd.laba.dao.model.*;
+import com.solvd.laba.dao.jdbcMySQLimpl.RouteDAO;
+import com.solvd.laba.dao.jdbcMySQLimpl.StationDAO;
+import com.solvd.laba.model.*;
 import com.solvd.laba.services.IBusRunner;
 import com.solvd.laba.services.RouteService;
 import com.solvd.laba.services.StationService;
@@ -46,7 +46,7 @@ public class BusRunnerImpl implements IBusRunner {
         int finishID = userInputIndex(stations.size());
         finish = stationService.getStationById(finishID);
         LOGGER.info("Your FINISH bus stop name: " + finish.getName() + ", " + finish.getCity() + ".");
-        List<Route> fullRoutes = setDistances(routes);
+        setDistances(routes);
 
         findShortestRoute(startID, finishID);
     }
@@ -68,13 +68,12 @@ public class BusRunnerImpl implements IBusRunner {
         }
     }
 
-    public static List<Route> setDistances(List<Route> routes) {
+    public static void setDistances(List<Route> routes) {
         RouteService routeService = new RouteService();
         List<Route> fullRoutes = new ArrayList<>();
         for (Route route : routes) {
             fullRoutes.add(routeService.getRouteById(route.getId()));
         }
-        return fullRoutes;
     }
 
     public static void findShortestRoute(int start, int finish) {

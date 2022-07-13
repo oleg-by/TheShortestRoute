@@ -1,4 +1,4 @@
-package com.solvd.laba.dao.model;
+package com.solvd.laba.model;
 
 import jakarta.xml.bind.annotation.XmlAccessType;
 import jakarta.xml.bind.annotation.XmlAccessorType;

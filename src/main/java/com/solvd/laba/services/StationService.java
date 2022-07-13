@@ -1,9 +1,8 @@
 package com.solvd.laba.services;
 
-
-import com.solvd.laba.dao.impl.BusDAO;
-import com.solvd.laba.dao.impl.StationDAO;
-import com.solvd.laba.dao.model.Station;
+import com.solvd.laba.dao.jdbcMySQLimpl.BusDAO;
+import com.solvd.laba.dao.jdbcMySQLimpl.StationDAO;
+import com.solvd.laba.model.Station;
 
 public class StationService {
     public Station getStationById(int id) {

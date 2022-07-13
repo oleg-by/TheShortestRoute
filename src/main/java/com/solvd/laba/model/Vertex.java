@@ -1,4 +1,4 @@
-package com.solvd.laba.dao.model;
+package com.solvd.laba.model;
 
 public class Vertex implements Comparable<Vertex> {
 

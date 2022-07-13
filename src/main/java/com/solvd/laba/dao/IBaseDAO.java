@@ -1,4 +1,4 @@
-package com.solvd.laba.dao.interfaces;
+package com.solvd.laba.dao;
 
 public interface IBaseDAO<T> {
     T getEntityById(int id);

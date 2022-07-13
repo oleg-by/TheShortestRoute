@@ -1,7 +1,6 @@
-package com.solvd.laba.dao.interfaces;
+package com.solvd.laba.dao;
 
-import com.solvd.laba.dao.model.Route;
-
+import com.solvd.laba.model.Route;
 import java.util.List;
 
 public interface IRouteDAO extends IBaseDAO<Route> {
