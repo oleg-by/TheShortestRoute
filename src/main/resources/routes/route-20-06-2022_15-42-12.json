@@ -1,0 +1,118 @@
+{
+  "routeUnits" : [ {
+    "fromStation" : {
+      "id" : 1,
+      "name" : "Railway_station",
+      "city" : "Minsk",
+      "latitude" : 53.8919235774,
+      "longitude" : 27.5495325449,
+      "buses" : [ {
+        "id" : 1,
+        "number" : "1"
+      } ],
+      "bus" : null
+    },
+    "toStation" : {
+      "id" : 3,
+      "name" : "Lenina",
+      "city" : "Minsk",
+      "latitude" : 53.900253855,
+      "longitude" : 27.5579054699,
+      "buses" : [ {
+        "id" : 1,
+        "number" : "1"
+      }, {
+        "id" : 10,
+        "number" : "130"
+      }, {
+        "id" : 11,
+        "number" : "91"
+      } ],
+      "bus" : null
+    },
+    "bus" : {
+      "id" : 1,
+      "number" : "1"
+    }
+  }, {
+    "fromStation" : {
+      "id" : 3,
+      "name" : "Lenina",
+      "city" : "Minsk",
+      "latitude" : 53.900253855,
+      "longitude" : 27.5579054699,
+      "buses" : [ {
+        "id" : 1,
+        "number" : "1"
+      }, {
+        "id" : 10,
+        "number" : "130"
+      }, {
+        "id" : 11,
+        "number" : "91"
+      } ],
+      "bus" : null
+    },
+    "toStation" : {
+      "id" : 9,
+      "name" : "DS_Vesnyanka",
+      "city" : "Minsk",
+      "latitude" : 53.9320779442,
+      "longitude" : 27.4798434988,
+      "buses" : [ {
+        "id" : 1,
+        "number" : "1"
+      }, {
+        "id" : 5,
+        "number" : "225"
+      }, {
+        "id" : 10,
+        "number" : "130"
+      } ],
+      "bus" : null
+    },
+    "bus" : {
+      "id" : 10,
+      "number" : "130"
+    }
+  }, {
+    "fromStation" : {
+      "id" : 9,
+      "name" : "DS_Vesnyanka",
+      "city" : "Minsk",
+      "latitude" : 53.9320779442,
+      "longitude" : 27.4798434988,
+      "buses" : [ {
+        "id" : 1,
+        "number" : "1"
+      }, {
+        "id" : 5,
+        "number" : "225"
+      }, {
+        "id" : 10,
+        "number" : "130"
+      } ],
+      "bus" : null
+    },
+    "toStation" : {
+      "id" : 10,
+      "name" : "Vesninka",
+      "city" : "Minsk",
+      "latitude" : 53.941095331,
+      "longitude" : 27.4688615202,
+      "buses" : [ {
+        "id" : 5,
+        "number" : "225"
+      }, {
+        "id" : 12,
+        "number" : "44"
+      } ],
+      "bus" : null
+    },
+    "bus" : {
+      "id" : 5,
+      "number" : "225"
+    }
+  } ],
+  "builtDate" : "2022-06-20T15:42:11.9177368"
+}

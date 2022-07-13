@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<route>
+    <route_units>
+        <route_unit>
+            <fromStation id="1">
+                <name>Railway_station</name>
+                <city>Minsk</city>
+                <latitude>53.8919235774</latitude>
+                <longitude>27.5495325449</longitude>
+                <buses id="1">
+                    <number>1</number>
+                </buses>
+            </fromStation>
+            <toStation id="3">
+                <name>Lenina</name>
+                <city>Minsk</city>
+                <latitude>53.900253855</latitude>
+                <longitude>27.5579054699</longitude>
+                <buses id="1">
+                    <number>1</number>
+                </buses>
+                <buses id="10">
+                    <number>130</number>
+                </buses>
+                <buses id="11">
+                    <number>91</number>
+                </buses>
+            </toStation>
+            <bus id="1">
+                <number>1</number>
+            </bus>
+        </route_unit>
+        <route_unit>
+            <fromStation id="3">
+                <name>Lenina</name>
+                <city>Minsk</city>
+                <latitude>53.900253855</latitude>
+                <longitude>27.5579054699</longitude>
+                <buses id="1">
+                    <number>1</number>
+                </buses>
+                <buses id="10">
+                    <number>130</number>
+                </buses>
+                <buses id="11">
+                    <number>91</number>
+                </buses>
+            </fromStation>
+            <toStation id="9">
+                <name>DS_Vesnyanka</name>
+                <city>Minsk</city>
+                <latitude>53.9320779442</latitude>
+                <longitude>27.4798434988</longitude>
+                <buses id="1">
+                    <number>1</number>
+                </buses>
+                <buses id="5">
+                    <number>225</number>
+                </buses>
+                <buses id="10">
+                    <number>130</number>
+                </buses>
+            </toStation>
+            <bus id="10">
+                <number>130</number>
+            </bus>
+        </route_unit>
+        <route_unit>
+            <fromStation id="9">
+                <name>DS_Vesnyanka</name>
+                <city>Minsk</city>
+                <latitude>53.9320779442</latitude>
+                <longitude>27.4798434988</longitude>
+                <buses id="1">
+                    <number>1</number>
+                </buses>
+                <buses id="5">
+                    <number>225</number>
+                </buses>
+                <buses id="10">
+                    <number>130</number>
+                </buses>
+            </fromStation>
+            <toStation id="10">
+                <name>Vesninka</name>
+                <city>Minsk</city>
+                <latitude>53.941095331</latitude>
+                <longitude>27.4688615202</longitude>
+                <buses id="5">
+                    <number>225</number>
+                </buses>
+                <buses id="12">
+                    <number>44</number>
+                </buses>
+            </toStation>
+            <bus id="5">
+                <number>225</number>
+            </bus>
+        </route_unit>
+    </route_units>
+    <builtDate>2022-06-20T15:42:11.917736800</builtDate>
+</route>
